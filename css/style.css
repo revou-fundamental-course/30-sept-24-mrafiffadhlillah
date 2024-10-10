@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .converter, .info {
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+      margin-bottom: 15px;
+    }
+    
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .input-group input[type="number"],
+    .input-group input[type="text"],
+    .input-group textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+   border-radius: 5px;
+    }
+    
+    .button-group {
+      margin-bottom: 15px;
+    }
+    
+    .button-group button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .button-group button:hover {
+      background-color: #555;
+    }
+    
+    .suhu-style {
+      font-weight: bold;
+      font-size: 20px;
+      font-family: math;
+      font-style: italic;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    #validation-input-suhu {
+        display: none;
+    }
+
+    .heart-simbol {
+        color: red;
+    }
